@@ -23,6 +23,8 @@ char *cap_string(char *str)
 		str[i - 1] == '!' ||
 		str[i - 1] == '?' ||
 		str[i - 1] == '"' ||
+		str[i - 1] == '(' ||
+		str[i - 1] == ')' ||
 		str[i - 1] == '{' ||
 		str[i - 1] == '}' ||
 		i == 0)
